@@ -18,5 +18,4 @@ def login(usuario: usuario, clave: password, **argumentos)
   puts 'Clave: ' + clave
   puts 'Argumentos: ' + argumentos.to_s
 end
-
 login(clave: 'secreta', usuario: 'Francisco', llave: 'valor', otra_llave: 'otro valor')
